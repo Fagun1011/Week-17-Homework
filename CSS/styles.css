@@ -1,43 +1,30 @@
 nav {
     height: 50px;
+    letter-spacing: 0.016666666666666666rem;
 }
 .inline-block {
     width: 50%;
     display: inline;
     padding: 15px;
+}
 
+.topnav {
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    float: right;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-right: 50px;
 }
 
 .heading-2 {
-    left: 0px;
-    top: 0px;
-    z-index: 100;
-    display: block;
-    overflow: visible;
-    margin-top: 16px;
-    margin-left: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #000;
+    position: absolute;
     font-size: 25px;
-    line-height: 32px;
-    letter-spacing: 0.2px;
-    text-decoration: none;
-}
-
-.paragraph-4 {
-    left: 0px;
-    top: 0px;
-    z-index: 100;
-    display: block;
-    overflow: visible;
-    margin-top: 16px;
-    margin-left: 32px;
-    font-family: Arial, Helvetica, sans-serif; 
-    color: #000;
-    font-size: 18px;
     line-height: 20px;
-    letter-spacing: 0.2px;
-    text-decoration: none;
+    margin-top: 16px;
+    margin-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .heroimg {
@@ -46,12 +33,15 @@ nav {
 }
 
 img {
-    max-width: 40%;
+    max-width: 30%;
     margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 20px;
+    margin-left: 15px;
     float: left;
     padding-right: 30px;
+}
+.left {
+    display: block;
+    float: left;
 }
 
 p {
@@ -59,7 +49,7 @@ p {
     margin-right: auto;
     margin-bottom: 20px;
     margin-left: auto;
-    padding-right: 0px;
+    padding-right: 20px;
     padding-left: 0px;
     font-family: Karla, sans-serif;
     color: #000;
@@ -67,6 +57,11 @@ p {
     line-height: 30px;
     text-align: left;
     letter-spacing: -0.2px;
+}
+.footer {
+    float: right;
+    height: 10px;
+    margin-right: 55px;
 }
 
 li {
